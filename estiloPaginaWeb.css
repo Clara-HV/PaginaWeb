@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9d79c;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d3ac57 !important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.carousel-caption {
+    background-color: rgba(253, 44, 44, 0.7);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+footer {
+    background-color: #343a40;
+    color: #be2626;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #17a2b8;
+    text-decoration: none;
+    bottom: 0;
+}
+
+footer a:hover {
+    color: #ff0808;
+    text-decoration: underline;
+    bottom: 0;
+    position: absolute;
+}
+
+.bg-dark-opacity {
+    background-color: rgba(196, 184, 79, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+    opacity: 0;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

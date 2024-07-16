@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Mejorada</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estiloPaginaWeb.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mi Biblioteca</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="titulos.html">Títulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="precios.html">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imagenesPagina/libros.png" alt="Primer slide">
+                <div class="carousel-caption d-none d-md-block bg-dark-opacity">
+                    <h5>Bienvenido a Mi Biblioteca</h5>
+                    <p>Explora nuestra colección de libros.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagenesPagina/libros2.png" alt="Segundo slide">
+                <div class="carousel-caption d-none d-md-block bg-dark-opacity">
+                    <h5>Gran Variedad</h5>
+                    <p>Encuentra libros de todos los géneros.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagenesPagina/libros3.png" alt="Tercer slide">
+                <div class="carousel-caption d-none d-md-block bg-dark-opacity">
+                    <h5>Precios Increíbles</h5>
+                    <p>Libros a los mejores precios.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenesPagina/Harry1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter y la Piedra Filosofal</h5>
+                        <p class="card-text">Harry Potter es un joven huérfano que, al descubrir que provenía de una familia de magos muy famosa cuando cumplió 11 años, se une al mundo mágico y se inscribe en el Colegio Hogwarts de Magia y Hechicería. Harry se enfrentará a muchos desafios.</p>
+                        <a href="#" class="btn btn-primary">Más Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenesPagina/shadowhunters.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Shadow Hunters: City Of Bones </h5>
+                        <p class="card-text">En el Pandemonium, la discoteca de moda de Nueva York, Clary sigue a un atractivo chico de pelo azul hasta que presencia su muerte a manos de tres jóvenes cubiertos de extraños tatuajes, que dicen ser cazadores de sombras buscando uno de los 3 instrumentos mortales.</p>
+                        <a href="#" class="btn btn-primary">Más Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenesPagina/Maze.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maze Runner: Correr o Morir</h5>
+                        <p class="card-text">La historia sigue a Thomas, un adolescente de 16 años que despierta dentro de un elevador en ascenso hasta llegar a un área rodeada por un laberinto. Mientras avanza la historia, irá desentrañando los secretos de porqué él y otros jóvenes fueron introducidos allí.</p>
+                        <a href="#" class="btn btn-primary">Más Información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 
+            <a class="text-dark" href="#">MiBibliotecaWeb.com</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
